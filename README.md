@@ -2,9 +2,9 @@ Deze repo is onderdeel van het vak informatica op het Emmauscollege Rotterdam.
 
 [Meer info over deze opdracht](https://informatica.emmauscollege.nl/)
 
-## *zet hier de titel van je website*
+## *steden/landen die je moet zien*
 
-*zet hier een korte beschrijving van de informatie die je kunt vinden op je website*
+*in deze website ga ik je vertellen welke je steden moet bezoeken en leuke trekpleisters die er daar te doen zijn*
 
 ## Planning
 Werk de planning af van boven naar beneden<br>
