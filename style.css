@@ -33,10 +33,14 @@ header, footer {                  /* geldt voor header en footer */
 main {                       
   text-align: justify;            /* tekst uitvullen */}
 
-h1, h2, h3 {                      /* geldt voor h1 en h2 en h3 */
+h1, h3 {                      /* geldt voor h1 en h3 */
   margin: 10px 0px;
-  text-align: center;             /* tekst centreren */
+  text-align: center;    /* tekst centreren */
 } 
+h2{
+  margin: 10px 0px;
+  text-align: justify;
+}
 
 p {
   margin: 10px 0px;
@@ -60,7 +64,7 @@ p {
 
 /* Opmaak voor alle pagina's */
 
-h1, h2 {
+h1, {
       color: skyblue;
 }
 
