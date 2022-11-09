@@ -9,14 +9,16 @@
 
 html, body {                      /* geldt voor html en body */
   margin: 0px;                    /* standaard marge 0 */
-  background-color: #EEEEEE;    /* achtergrondkleur lichtgrijs */
-  color: #303030;               /* tekstkleur donkergrijs */
+  background-color: #7a7a7a;    /* achtergrondkleur lichtgrijs */
+  color: #000000;               /* tekstkleur donkergrijs */
 }  
 
 body * {                          /* geldt voor alles in body */
-  overflow: hidden;               /* zorgt dat DIV en andere block elementen de hoogte krijgt van wat erin zit (anders is het soms 0) */
   box-sizing: border-box;         /* zorg dat border meetelt bij de width en height van boxen */
   margin: 0px;                    /* standaard marge 0 */
+}
+div {
+  overflow: hidden;               /* zorgt dat DIV en andere block elementen de hoogte krijgt van wat erin zit (anders is het soms 0) */
 }
 
 /* Indeling voor alle pagina's */
@@ -41,6 +43,10 @@ h2{
   margin: 10px 0px;
   text-align: justify;
 }
+h4{
+  margin:10px 0px;
+  text-align: justify
+}
 
 p {
   margin: 10px 0px;
@@ -61,12 +67,20 @@ p {
 .kolomStop {
   clear:both;                   /* stop met floaten */
 }
-
+.kolomrechts{
+  float:right;
+  width:250px;
+  margin-left:2cm;
+}
 /* Opmaak voor alle pagina's */
 
-h1, {
-      color: skyblue;
+h1,h2,h3{
+      color: #e392fe;
 }
+h4{
+  color:#b18cfe
+}
+
 
 .smalltext {
     text-align: center;
@@ -74,7 +88,7 @@ h1, {
 }
 
 a {
-    color: skyblue;
+    color: #a8c6fe;
     text-decoration: none;
 }
 
@@ -88,7 +102,7 @@ nav ul {
     list-style-type: none;
     margin: auto;
     padding: 0;
-    background-color: #dddddd;
+    background-color: #ed719e;
     overflow: hidden;
 }
 
@@ -105,9 +119,9 @@ nav li a {
 }
 
 nav li a:hover {
-    background-color: #aaaaaa;
+    background-color: #000000;
 }
 
 nav li a.active {
-    background-color: skyblue;
+    background-color: #ff8c82;
 }
