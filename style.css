@@ -28,7 +28,7 @@ div {
 /* Indeling voor alle pagina's */
 
 .page {
-  width: 700px;                   /* vaste breedte van 700 pixels */
+  width: 900px;                   /* vaste breedte van 700 pixels */
   margin: 10px auto;              /* boven en onder 0 pixels marge, links en rechts marge gelijk verdeeld (gecentreerd) */
 }
 
@@ -62,7 +62,8 @@ p {
 .kolomLinks {
   float:left;
   width:250px;
-  padding-right:15px;           /* afstand tussen plaatje en rechterkolom */
+  padding-right:15px; 
+  margin:20px;/* afstand tussen plaatje en rechterkolom */
 }
 .kolomRechts {
   float:left;
@@ -75,6 +76,10 @@ p {
   float:right;
   width:250px;
   margin-left:2cm;
+}
+
+.rij {
+  margin-top:30px;
 }
 /* Opmaak voor alle pagina's */
 
