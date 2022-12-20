@@ -64,6 +64,7 @@ p {
   width:250px;
   padding-right:15px; 
   margin:20px;/* afstand tussen plaatje en rechterkolom */
+  padding-top:20px ;
 }
 .kolomRechts {
   float:left;
@@ -134,5 +135,11 @@ nav li a:hover {
 nav li a.active {
     background-color: #ff8c82;
 }
-
+#hotel{
+  float:left;
+}
+#kleinhotel{
+  padding-top:50px;
+  
+}
 
