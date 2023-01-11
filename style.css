@@ -78,7 +78,12 @@ p {
   width:250px;
   margin-left:2cm;
 }
-
+.kolomLINKS{
+  float:left;
+  width:250px;
+  margin-right:2cm;
+  margin-top: 35px;
+}
 .rij {
   margin-top:30px;
 }
